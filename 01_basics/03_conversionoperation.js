@@ -1,4 +1,4 @@
-let score = "prince"
+//let score = "prince"
 
 //console.log(typeof score);
 //console.log(typeof (score))
@@ -20,7 +20,30 @@ let score = "prince"
  //""=> false
  //"prince"=>true
 
- let somenumber = 33
-  let stringNumber = string(someNumber)
-  console.log(stringNumber);
+ //let somenumber = 33
+  //let stringNumber = string(someNumber)
+  //console.log(stringNumber);
   
+  ///**********************************operations **************************************/
+
+  let value = 3
+   let negvalue = -value
+   console.log(negvalue);
+
+//    console.log(2+2);
+//    console.log(2-2);
+//    console.log(2*2);
+//    console.log(2/2);
+//    console.log(2**2);
+//    console.log(2%2);
+   
+// 
+ 
+let gamecounter =100
+++gamecounter;
+console.log(gamecounter);
+
+
+
+
+
