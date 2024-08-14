@@ -32,4 +32,30 @@ const myfunction = function(){
 }
 
 
-console.log(typeof Bignumber);
+//console.log(typeof Bignumber);
+
+
+
+//****************************************************** */
+
+//stack(primitive) or heap(non primitive)
+
+let myytname = "princerajputvlogs"
+let anothername = myytname
+anothername = "chaiorcode"
+
+//console.log(myytname);
+//console.log(anothername);
+
+let userOne ={
+    email:"princerajput@gamil.com",
+    age:22
+
+};
+
+let userTwo= userOne;
+userTwo.email = "princkumar@gamil.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
